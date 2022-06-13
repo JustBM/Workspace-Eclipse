@@ -1,0 +1,10 @@
+	public class bicicleta extends vehiculo {
+		public bicicleta(float cambios) {
+			this.cambios;
+//atributos			
+	private boolean cambios;
+//metodos
+	//no tiene
+
+
+}

@@ -43,8 +43,10 @@
 		private int numeroDeNotas;
 		private int sumaDeNotas;
 		private double notaMedia;
+
 				
 		//Metodos públicos
+	
 		public void mostrarInfo() {};
 		public void agregarNuevaNota() {};
 		public int getid() {
@@ -77,6 +79,8 @@
 		};
 		public void SetnotaMedia(double notaMedia) {
 		};
+		
+		public static float crearEstudiante (float )
 	}
 	
 

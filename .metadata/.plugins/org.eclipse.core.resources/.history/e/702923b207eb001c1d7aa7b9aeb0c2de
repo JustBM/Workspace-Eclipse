@@ -1,0 +1,14 @@
+//Superclase de coche, avion y bicicleta
+public class vehiculo {
+//atributos se ponen en protected porque private solo podría cogerlo la clase vehiculo y no coche, avion ni bici
+	protected float velocidad;
+	protected int asientos;
+	protected int orientacionRuedas;
+//metodos
+	public void parar () {}
+	public void acelerar() {}
+	public void desacelerar () {}
+	public void girarIzquierda() {}
+	public void girarDerecha() {}
+	
+}

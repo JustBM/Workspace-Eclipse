@@ -1,0 +1,16 @@
+	public class avion extends vehiculo {
+		public avion(float trenDeAterrizaje) {
+			private float velocidad;
+			private float caballos;
+			private float asientos;
+			private float orientacionRuedas;
+			this.trenDeAterrizaje;
+		}
+//atributos			
+	private boolean trenDeAterrizaje;
+//metodos
+	public void volar () {}
+	public void aterrizar () {}
+
+
+}
