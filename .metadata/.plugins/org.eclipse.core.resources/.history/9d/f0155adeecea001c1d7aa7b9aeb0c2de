@@ -1,0 +1,16 @@
+
+public class mainEstudiante {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		estudiante marc = new estudiante();
+		estudiante laura = new estudiante(3);
+		estudiante isaac = new estudiante (5, 19);
+		estudiante marta = new estudiante(5, 25, 697697967, 8, 8, 8);
+	}
+	public float getid() {
+	}
+	public void setid(int id) {
+		this.id=55;
+	}
+}

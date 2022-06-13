@@ -1,0 +1,12 @@
+
+public class mainEstudiante {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Estudiante marc= new Estudiante();
+		Estudiante laura= new Estudiante();
+		Estudiante isaac= new Estudiante();
+		Estudiante marta= new Estudiante();
+	}
+
+}

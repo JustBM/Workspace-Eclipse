@@ -1,0 +1,61 @@
+
+
+	
+	public class estudiante{
+		//Constructores 
+			//Por defecto
+		public Estudiante () {
+			this.id=1;
+			this.edad=18;
+			this.telefono=699999999;
+			this.numeroDeNotas=1;
+			this.sumaDeNotas=10;
+			this.notaMedia=5;
+		}
+			//Parametrizado con 1 parametro
+		public Estudiante (int id) {
+			this.id=id;
+			this.edad=23;
+			this.telefono=695695695;
+			this.numeroDeNotas=3;
+			this.sumaDeNotas=12;
+			this.notaMedia=6;
+		}
+			//Parametrizado con 2 parametros
+		public Estudiante (int id, int edad) {
+			this.id=id;
+			this.edad=edad;
+			this.telefono=685685685;
+			this.numeroDeNotas=4;
+			this.sumaDeNotas=30;
+			this.notaMedia=4;
+		}
+			//Sin parametrizar, todos las variables se harán a partir de los datos introducidos
+		public Estudiante (int id, byte edad, int telefono, int numeroDeNotas, int sumaDeNotas) {
+			this.id=id;
+			this.edad=edad;
+			this.telefono=telefono;
+			this.numeroDeNotas=numeroDeNotas;
+			this.sumaDeNotas=sumaDeNotas;
+			this.notaMedia=notaMedia;
+		}
+		//Atributos
+		int id() {};
+		byte edad() {};
+		int telefono() {};
+		int numeroDeNotas() {};
+		int sumaDeNotas() {};
+		float notaMedia() {};
+				
+		//Metodos
+		void mostrarInfo() {};
+		void agregarNuevaNota() {};
+	}
+
+public class Clases {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}

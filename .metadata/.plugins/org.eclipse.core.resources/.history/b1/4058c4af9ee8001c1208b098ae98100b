@@ -1,0 +1,17 @@
+
+public class EjercicioExamen1 {
+
+	public static void main(String[] args) {
+		EjercicioExamen1.suma(4,5);
+		EjercicioExamen1.resta(25,75);
+	}
+		public static int suma(int x, int y){
+			return x+y;
+		}
+
+		
+		public static int resta (int x, int y) {
+			return x-y;
+		}
+
+}
