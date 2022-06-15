@@ -1,0 +1,16 @@
+package com.string.info;
+
+public class String2 {
+
+	public static void main(String[] args) {
+		String texto="Esto es un texto";
+		//Tamaño del string:
+		System.out.println(texto.length());
+		//Letra en la posición indicada:
+		System.out.println(texto.charAt(0));
+		System.out.println(texto.charAt(5));
+		System.out.println(texto.charAt(texto.length()-1));
+
+	}
+
+}

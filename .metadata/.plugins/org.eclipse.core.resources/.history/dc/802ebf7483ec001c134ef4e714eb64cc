@@ -1,0 +1,11 @@
+package com.string.info;
+
+public class String1 {
+
+	public static void main(String[] args) {
+		
+	System.out.println("f" + "u" + "l" + "l" + "s" + "t" + "a" + "c" + "k"  );
+	
+	
+	}
+}

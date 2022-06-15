@@ -1,0 +1,21 @@
+package com.string.info;
+
+public class EjerciciosString {
+
+	public static void main(String[] args) {
+		String texto1= "Ha Me fui a mi casa caminando porque perdi el bus";
+		String texto2= "Ha llovido un monton mientras iba en el bus";
+		String cadena1= texto1.substring(0,2);
+		System.out.println(cadena1);
+		String cadena2= texto2.substring(0,2);
+		System.out.println(cadena2);
+		if (cadena1==cadena2) {
+			System.out.println("Las dos primeras letras son iguales");
+		}else {
+				System.out.println("No son iguales las primeras letas");
+			}
+		}
+		
+	}
+
+

@@ -1,0 +1,27 @@
+package com.string.info;
+
+public class String2 {
+
+	public static void main(String[] args) {
+		String texto="Esto es un texto";
+		//Tamaño del string:
+		System.out.println(texto.length());
+		//Letra en la posición indicada:
+		System.out.println(texto.charAt(0));
+		System.out.println(texto.charAt(6));
+		System.out.println(texto.charAt(texto.length()-1));
+		//para conseguir la última posición del String:
+		int longitud=texto.length();
+		int ultimaposicion=longitud-1;
+		System.out.println(texto.charAt(ultimaposicion)); //Sería igual que la línea 12
+		//Nos devuelve en que posición se encuentra la letra o string que deseamos:
+		System.out.println(texto.indexOf('o'));
+		System.out.println(texto.indexOf('t'));
+		System.out.println(texto.indexOf('E'));
+		System.out.println(texto.indexOf("es"));
+		System.out.println(texto.indexOf('o',6));
+		
+
+	}
+
+}
