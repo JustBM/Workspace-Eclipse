@@ -65,6 +65,11 @@ public class String2 {
 		//Convierte cosas a String:
 		String str1 = String.valueOf(true);
 		String str2 = String.valueOf(1);
+		//Concatenacion, la + con strings los concatena, no los suma
+		System.out.println("1" + "1"); //11
+		int i = 20;
+		System.out.println("El valor es " + i + 20); //2020
+		System.out.println("El valor es " + (i + 20)); //40
 	}
 
 }

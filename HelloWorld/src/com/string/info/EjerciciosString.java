@@ -59,6 +59,52 @@ public class EjerciciosString {
 		System.out.println("La tercera A se encuentra en la posición:" + texto1.indexOf('a',posA2+1));
 		
 		//Ejercicio 6
+		String palin= "amororoma";
+		String palinReverse="";
+		
+		//Opción Crear y comparar
+		int indiceRecorre = palin.length()-1;
+		char caracter=palin.charAt(indiceRecorre);
+		caracter=palin.charAt(indiceRecorre);
+		for(int i=indiceRecorre;i>=0;i--) {
+			palinReverse=palinReverse.concat(palin.valueOf(caracter));
+			indiceRecorre--;
+			if(indiceRecorre>=0) {
+				caracter=palin.charAt(indiceRecorre);
+			}
+		}
+		if (palin.equals(palinReverse)) {
+			System.out.println("Es un palindromo");	
+		} else {
+			System.out.println("No es un palindromo");
+		}
+		
+		
+		//Opción recorrer y comparar
+		int pos1= 0;
+		int pos2= palin.length()-1;
+		System.out.println(pos1 + pos2);
+		
+		while (pos1!=palin.length() && pos2!=0) {
+			
+			if (palin.charAt(pos1)==palin.charAt(pos2)) {
+				
+				if(pos1==palin.length()/2) {
+					System.out.println("Es palindromo");
+					break;	
+					
+				} else { 
+					pos1++;
+					pos2--;
+				}	
+				
+			} else {
+				System.out.println("No es un palindromo");
+				break;
+			}
+			
+		}
+		
 		
 	}
 		

@@ -1,0 +1,18 @@
+package com.string.info;
+
+public class EjStringBuilder {
+	public static void main(String[] args) {
+	//ejercicio1 - 421
+	StringBuilder strb1 =new StringBuilder("Me voy a Barna");
+	StringBuilder strb2 =new StringBuilder(", que calor hace");
+	
+	String str = strb1.toString() + strb2.toString(); //Convertir los StringsBuilder a String
+	System.out.println(str);
+	
+	System.out.println(strb1.append(" a la playa."));
+	
+	//ejercicio2 
+	int ult = strb1.length()-1;
+	System.out.println(strb1.deleteCharAt(ult));
+	}
+}
