@@ -65,7 +65,6 @@ public class EjerciciosString {
 		//Opción Crear y comparar
 		int indiceRecorre = palin.length()-1;
 		char caracter=palin.charAt(indiceRecorre);
-		caracter=palin.charAt(indiceRecorre);
 		for(int i=indiceRecorre;i>=0;i--) {
 			palinReverse=palinReverse.concat(palin.valueOf(caracter));
 			indiceRecorre--;

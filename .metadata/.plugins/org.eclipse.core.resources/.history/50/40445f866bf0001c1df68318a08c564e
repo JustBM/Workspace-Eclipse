@@ -1,0 +1,39 @@
+package com.examen.ja;
+
+public class Examen {
+
+	public static void main(String[] args) {
+		// Ejercicio 1:
+		System.out.println("Buenos días");
+		System.out.println("8x13");
+		System.out.println(8*13);
+		//Ejercicio 2:
+		System.out.println("1 + 2 + 3 =" + (1+2+3));
+		//Ejercicio 3:
+		int a= 5;
+		int b= 24;
+		int c= 36;
+		System.out.printf("La suma de las tres variables a(%d),b(%d) y c(%d) es:" + (a+b+c),a,b,c).println();
+		c= 55;
+		System.out.printf("La suma con c=%d es:" + (a+b+c),c).println();
+		//Ejercicio 4
+			//3 Angulos de un triangulo cuya suma = 180. 
+		//Definimos angulos= 
+		int angulo1=70 ;
+		int angulo2=0 ;
+		int angulo3=80 ;
+		int suma= angulo1 + angulo2 + angulo3;
+		//Definimos condicional
+		if (suma==180 && angulo1!=0 && angulo2!=0 && angulo3!=0) {
+			System.out.println("Los ángulos pueden formar un triángulo ya que la suma de ellos es 180º.");
+		} else {
+			if(angulo1==0 || angulo2==0 || angulo3==0) {
+				System.out.println("Uno de los ángulos es 0, por lo que no puede ser un triángulo.");
+			} else {
+			System.out.printf("La suma de los ángulos, cuyo valor es %d, no podría formar un triángulo "
+					+ "porque esta no es 180º.", suma).println();
+			}
+		}
+	}
+
+}

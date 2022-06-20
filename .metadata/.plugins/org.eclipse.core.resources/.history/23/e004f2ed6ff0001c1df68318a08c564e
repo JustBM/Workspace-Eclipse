@@ -1,0 +1,25 @@
+package com.examen.ja;
+
+public class Delfin {
+
+	//atributos			
+	private float velocidad;
+	private float profundidad;
+
+		public Delfin () {
+			//super(0.0f, 4, 0);
+			this.velocidad=0;
+			this.profundidad=-50;
+		}
+		public Delfin(float velocidad, boolean prfundidad) {
+			//super (velocidad , asientos , orientacionRuedas);
+			this.velocidad=velocidad;
+			this.profundidad=profundidad;
+		}
+		
+
+//metodos
+public void sumergirse () {}
+public void saltar () {}
+
+}

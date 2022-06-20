@@ -1,0 +1,29 @@
+package com.examen.ja;
+
+public abstract class Animales implements SeresVivos{
+	//Superclase Colibri, Delfin y Leopardo
+
+	//Atributos 
+		protected boolean Respira;
+		protected float posicionOjos;
+		protected boolean Dormido;
+		
+	//Constructor:
+		public Animales(boolean Respira, float posicionOjos, boolean Dormido) {
+		this.Respira=Respira;
+		this.posicionOjos=posicionOjos;
+		this.Dormido=Dormido;
+		}
+		public Animales() {
+			this.Respira=true;
+			this.posicionOjos=0;
+			this.Dormido=false;
+		}
+		
+	//metodos
+		public void Despierta () {}
+		public void Duerme() {}
+		public void estadoAlerta () {}
+		public void Llamar() {}
+		
+}
