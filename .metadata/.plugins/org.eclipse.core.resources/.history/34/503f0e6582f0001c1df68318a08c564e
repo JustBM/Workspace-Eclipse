@@ -75,7 +75,7 @@ public class Examen {
 				+ "7. Salir");
 		int x=0;
 		while (x!=7) {
-			System.out.println("Introduzca la acción del menús a la que desea acceder: ");
+			System.out.println("Introduce un numero en pantalla: ");
 			Scanner keyboard = new Scanner(System.in);
 			x = keyboard.nextInt();
 			
@@ -113,37 +113,38 @@ public class Examen {
 				Scanner keyboard = new Scanner(System.in);
 				y = keyboard.nextInt();
 				int Gestor []= {y};
+				
 			}
+			
 		}
 		public static void mensajesObtencion () {
 			System.out.println("Sobre que gestor quiere tener información?");
-			/*Scanner keyboard = new Scanner(System.in);
+			Scanner keyboard = new Scanner(System.in);
 			int p = keyboard.nextInt();
-			System.out.println(Gestor[p]);*/
+			System.out.println(Gestor[p]);
 			
 		}
 		public static void mensajesTodos () {
 			System.out.println("Aquí esta la información de todos los gestores:");
-			/*for(int Gestor : Gestor) {
+			for(int Gestor : Gestor) {
 				System.out.println(Gestor);
-				}*/
+				}
 		}
 		public static void mensajesActualizacion () {
-			System.out.println("Insertar los cambios a continuación:");
-			/*System.out.println("Que gestor quiere actualizar?");
+			System.out.println("Que gestor quiere actualizar?");
 			Scanner keyboard = new Scanner(System.in);
 			int p = keyboard.nextInt();
 			System.out.println("Inserte sus cambios");
 			Scanner teclado = new Scanner(System.in);
 			int cambio = keyboard.nextInt();
 			Gestor [p]= cambio;
-			keyboard.close();*/
+			keyboard.close();
 		}
 		public static void mensajesEliminacion () {
 			System.out.println("Que gestor quiere eliminar?");
-			/*Scanner keyboard = new Scanner(System.in);
+			Scanner keyboard = new Scanner(System.in);
 			int p = keyboard.nextInt();
-			Gestor [p]=null;*/
+			Gestor [p]=null;
 		}
 		public static void mensajesReintenta () {
 			System.out.println("Su consulta no puede ser atendida");

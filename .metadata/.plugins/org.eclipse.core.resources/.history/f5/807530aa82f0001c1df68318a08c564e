@@ -75,7 +75,7 @@ public class Examen {
 				+ "7. Salir");
 		int x=0;
 		while (x!=7) {
-			System.out.println("Introduzca la acción del menús a la que desea acceder: ");
+			System.out.println("Introduce un numero en pantalla: ");
 			Scanner keyboard = new Scanner(System.in);
 			x = keyboard.nextInt();
 			
