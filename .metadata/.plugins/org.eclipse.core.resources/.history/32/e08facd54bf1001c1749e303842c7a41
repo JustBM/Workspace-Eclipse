@@ -1,0 +1,40 @@
+package com.banco.info;
+
+public class Gestor {
+
+	//atributos			
+
+	private int id;
+	private char usuario;
+	private char password;
+	private char correo;
+	
+	/*public Gestor () {
+		super(0, 18, 685326487);
+		this.numeroDeEdadesEstudiantes=19;
+		this.sumaDeEdadesEstudiantes=118;
+		this.estudiantesEdadMedia=19;
+	}*/
+	public Gestor(int id, char usuario, char password, char correo) {
+		this.id=id;
+		this.usuario=usuario;
+		this.password=password;
+		this.correo=correo;
+	}
+		
+
+//metodos
+public void MetodosGetterySetters() {}
+}
+	
+	
+	
+	
+	/*String anGes="Añadir Gestor";
+	String moGes="Modificar Gestor";
+	String elGes="Eliminar Gestor";
+	String veGes="Ver Gestor";
+	String veGts="Ver Gestores";
+	String atr="Volver Atrás";
+	 */
+

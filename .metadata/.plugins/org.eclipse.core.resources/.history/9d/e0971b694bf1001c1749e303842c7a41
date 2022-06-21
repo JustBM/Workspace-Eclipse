@@ -1,0 +1,18 @@
+package com.banco.info;
+
+public class Gestor {
+
+	String anGes="Añadir Gestor";
+	String moGes="Modificar Gestor";
+	String elGes="Eliminar Gestor";
+	String veGes="Ver Gestor";
+	String veGts="Ver Gestores";
+	String atr="Volver Atrás";
+
+	
+	/*1. Añadir gestor
+	2. Modificar gestor
+	3. Eliminar gestor
+	4. Ver gestor
+	5. Ver gestores*/
+}

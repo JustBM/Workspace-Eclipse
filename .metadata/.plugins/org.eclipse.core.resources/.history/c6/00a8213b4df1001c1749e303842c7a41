@@ -9,15 +9,12 @@ public class Gestor {
 	private String password;
 	private String correo;
 	
-	//Constructor
-	
 	/*public Gestor () {
 		super(0, 18, 685326487);
 		this.numeroDeEdadesEstudiantes=19;
 		this.sumaDeEdadesEstudiantes=118;
 		this.estudiantesEdadMedia=19;
 	}*/
-	
 	public Gestor(int id, String usuario, String password, String correo) {
 		this.id=id;
 		this.usuario=usuario;
@@ -27,32 +24,11 @@ public class Gestor {
 		
 
 //metodos
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id=id;
-	}
-	public String getUsuario() {
-		return usuario;
-	}
-	public void setUsuario() {
-		this.usuario=usuario;
-	}
-	public String getPassword() {
-		return password;
-	}
-	public void setPassword() {
-		this.password=password;
-	}
-	public String getCorreo() {
-		return correo;
-	}
-	public void setCorreo() {
-		this.correo=correo;
-	}
-	
+	public void MetodosGet() {}
+	public void MetodosSet() {}
 }
+	
+	
 	
 	
 	/*String anGes="Añadir Gestor";

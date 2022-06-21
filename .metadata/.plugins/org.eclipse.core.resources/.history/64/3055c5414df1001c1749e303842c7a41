@@ -52,7 +52,7 @@ public class Gestor {
 		this.correo=correo;
 	}
 	
-}
+	
 	
 	
 	/*String anGes="Añadir Gestor";

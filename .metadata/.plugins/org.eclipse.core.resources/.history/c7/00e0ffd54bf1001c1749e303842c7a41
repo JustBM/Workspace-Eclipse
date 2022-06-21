@@ -1,0 +1,33 @@
+package com.banco.info;
+
+public class Cliente {
+	//atributos			
+
+		private int id;
+		private int id_gestor;
+		private char usuario;
+		private char password;
+		private char correo;
+		private float saldo;
+		
+		/*public Cliente () {
+			super(0, 18, 685326487);
+			this.numeroDeEdadesEstudiantes=19;
+			this.sumaDeEdadesEstudiantes=118;
+			this.estudiantesEdadMedia=19;
+		}*/
+		public Cliente(int id, int id_gestor, char usuario, char password, char correo, float saldo) {
+			this.id=id;
+			this.id_gestor=id_gestor;
+			this.usuario=usuario;
+			this.password=password;
+			this.correo=correo;
+			this.saldo=saldo;
+		}
+			
+
+	//metodos
+	public void MetodosGet() {}
+	public void MetodosSet() {}
+	}
+}
