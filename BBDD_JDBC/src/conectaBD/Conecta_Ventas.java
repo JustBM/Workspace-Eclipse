@@ -22,7 +22,6 @@ public class Conecta_Ventas {
 						System.out.println(miResultset.getString("SECCIÓN") + " " + miResultset.getString("PAÍSDEORIGEN") + " " +
 						miResultset.getDouble("PRECIO")*1.21);
 			}
-			
 		}
 		
 		catch(Exception e) {
