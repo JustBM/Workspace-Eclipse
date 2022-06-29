@@ -57,7 +57,6 @@ INDEX VERSION 1.131+C:\Users\Miguel\Documents\GitHub\Workspace-Eclipse\.metadata
 1256664923.index
 3385378495.index
 3998044336.index
-3270759192.index
 1124253961.index
 3943694659.index
 3494634539.index
