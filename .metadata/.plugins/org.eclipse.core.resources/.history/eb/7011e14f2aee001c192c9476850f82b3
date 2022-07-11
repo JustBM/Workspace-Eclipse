@@ -1,0 +1,49 @@
+package com.string.info;
+
+public class EjStringBuilder {
+	public static void main(String[] args) {
+	//ejercicio1 - 421
+	StringBuilder strb1 =new StringBuilder("Me voy a Barna");
+	StringBuilder strb2 =new StringBuilder(", que calor hace");
+	
+	String str = strb1.toString() + strb2.toString(); //Convertir los StringsBuilder a String
+	System.out.println(str);
+	
+	System.out.println(strb1.append(" a la playa."));
+	
+	//ejercicio2 
+	StringBuilder strb3 = new StringBuilder("El gato trepa por la ventana");
+	int ult = strb3.length()-1;
+	System.out.println(strb3.deleteCharAt(ult));
+	
+	//ejercicio3
+	for(int i=0;i<=ult+3;i+=3) {
+		strb3.insert(i, "b");
+	}
+	System.out.println(strb3);
+	
+	//ejercicio4
+	StringBuilder strb4 = new StringBuilder("Ayer cayó un rayo");
+	String conv=strb4.toString(); //Convertimos a String
+	int tamano=conv.length()-1; //Definimos tamaño
+	int pos= 0; //Definimos la posicion inicial
+	String mayu= conv.toUpperCase(); //Creamos el String mayuscula
+	//System.out.println(mayu); 
+	
+	while (pos<=tamano) {
+		char Caract=conv.charAt(pos); //Definimos el caracter que cogemos
+			if (Caract == ' ') {
+				pos++; //Nos posicionamos en la siguiente posición del espacio
+				strb4.setCharAt(pos, mayu.charAt(pos)); // reemplazamos la letra minuscula por la mayuscula
+			}else {
+				pos++; //Si no, avanzamos a la siguiente posición.
+			}
+			//System.out.println(strb4);
+	}
+	System.out.println(strb4);
+	}
+	
+	//ejercicio5
+	int x = (!true) ? 4 : 3;
+	System.out.println(x);
+}

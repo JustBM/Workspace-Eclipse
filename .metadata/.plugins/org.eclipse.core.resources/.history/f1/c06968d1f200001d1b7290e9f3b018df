@@ -1,0 +1,48 @@
+package com.examen;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Iniciando conexión");
+		SessionFactory factory = new Configuration()
+				.configure("hibernate.cfg.xml")
+				.addAnnotatedClass(ProfesorInformatica.class).buildSessionFactory();
+		System.out.println("Conexión correcta");
+		Session session = factory.getCurrentSession();
+		
+		try {
+			
+			ProfesorInformatica profesorinformatica = new ProfesorInformatica("Marc","Esteve",31);
+			
+			
+			System.out.println(profesorinformatica.getId());
+			session.beginTransaction();
+			session.save(profesorinformatica);
+			session.getTransaction().commit();
+			
+			System.out.println(profesorinformatica.getId());
+			
+			
+			ProfesorMates profesormates = new ProfesorMates("Adrian","Gil",44);
+			
+			
+			System.out.println(profesorinformatica.getId());
+			session.beginTransaction();
+			session.save(profesorinformatica);
+			session.getTransaction().commit();
+			
+			System.out.println(profesorinformatica.getId());
+			
+		} finally {
+			factory.close();
+		}
+
+	}
+
+}
